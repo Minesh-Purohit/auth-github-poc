@@ -2,7 +2,7 @@
 
 An app that implements "Login with GitHub" functionality in React
 
-![Login Screen](https://imgur.com/wW6k2HF.png)
+![Login Screen](https://user-images.githubusercontent.com/47652873/189103818-453c18f5-dd53-49a8-9284-8d99c6d095a5.png)
 
 ### Usage and Setup
 - Clone this repo. Go into the root folder and run *yarn* to install the dependencies.
@@ -16,3 +16,18 @@ An app that implements "Login with GitHub" functionality in React
   SERVER_PORT=5000
   ```
 - Run *yarn start* to start the app
+### Play with docker image
+> We have added image on docker so that you don't need to download all the stuff
+- Meanwhile please check letest image on my dockerhub repository [DockerHub](https://hub.docker.com/r/mineshp008/github-auth/)
+- Take pull from docker hub
+```
+docker pull mineshp008/github-auth:latest
+```
+- To run docker image in local
+```
+docker-compose up
+```
+- If you want to run application on localhost port:3000 please execute below command
+```
+sudo docker run -d --network=host <image_name:version>
+```
