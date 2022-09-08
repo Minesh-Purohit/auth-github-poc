@@ -1,6 +1,7 @@
 ## Login with Github
-
-An app that implements "Login with GitHub" functionality in React
+- Example of octokit, github authentication and app installtion for an user
+- Under guidence of [Divya Khanani](https://github.com/DivyaKhanani) Thank You!
+- An app that implements "Login with GitHub" functionality.
 
 ![Login Screen](https://user-images.githubusercontent.com/47652873/189103818-453c18f5-dd53-49a8-9284-8d99c6d095a5.png)
 
@@ -31,3 +32,4 @@ docker-compose up
 ```
 sudo docker run -d --network=host <image_name:version>
 ```
+
